@@ -43,7 +43,7 @@ CREATE TABLE `user` (
 	`created` integer NOT NULL,
 	`updatedAt` integer NOT NULL
 );
--
+
 CREATE TABLE `verificationToken` (
 	`identifier` text NOT NULL,
 	`token` text NOT NULL,
